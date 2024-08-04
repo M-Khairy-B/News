@@ -18,9 +18,7 @@ export default function NavbarMain() {
                 <Navbar expand="xl" className="bg-body-tertiary navbar-main">
                     <Container>
                         <Navbar.Brand className="logo-main" href="/">
-                            <h1>
                                 <img src={logo} alt="" />
-                            </h1>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav">
                             <img src={bar} alt="" />
