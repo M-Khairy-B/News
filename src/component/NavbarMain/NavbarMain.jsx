@@ -15,7 +15,7 @@ export default function NavbarMain() {
     return (
         <React.Fragment>
             <header>
-                <Navbar expand="lg" className="bg-body-tertiary navbar-main">
+                <Navbar expand="xl" className="bg-body-tertiary navbar-main">
                     <Container>
                         <Navbar.Brand className="logo-main" href="/">
                             <img src={logo} alt="" />
