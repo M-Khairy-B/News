@@ -255,7 +255,7 @@ body {
             font-family: "Poppins";
             font-size: 20px;
             font-weight: 500;
-            line-height: 15px;
+            line-height: 30px;
             text-align: center;
             color: #ffffff;
         }
@@ -1285,5 +1285,8 @@ body {
     }
     .testmonial-main .follow {
         text-align: center;
+    }
+    .slider-arctical .main-slider .slide-item .row .wrapper-text .trending  {
+        margin-top: 15px;
     }
 }
