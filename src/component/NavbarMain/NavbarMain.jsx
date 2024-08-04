@@ -20,23 +20,22 @@ export default function NavbarMain() {
                         <Navbar.Brand className="logo-main" href="/">
                             <img src={logo} alt="" />
                         </Navbar.Brand>
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" >
-                        <img src={bar} alt="" />
-                          </Navbar.Toggle>
+                        <Navbar.Toggle aria-controls="basic-navbar-nav">
+                            <img src={bar} alt="" />
+                        </Navbar.Toggle>
                         <Navbar.Collapse
                             id="basic-navbar-nav"
                             className="nav-main"
                         >
                             <Nav className="m-auto flex-lg-grow-1 justify-content-lg-between nav-link-main">
                                 <NavLink to="/" className="nav-link">
-                                    
                                     Corona Updates
                                 </NavLink>
                                 <NavLink to="/general" className="nav-link">
-                                General
+                                    General
                                 </NavLink>
                                 <NavLink to="/technology" className="nav-link">
-                                Technology
+                                    Technology
                                 </NavLink>
                                 <NavLink to="/business" className="nav-link">
                                     Business
@@ -44,17 +43,20 @@ export default function NavbarMain() {
                                 <NavLink to="/sports" className="nav-link">
                                     Sports
                                 </NavLink>
-                                <NavLink to="/entertainment" className="nav-link">
-                                Entertainment
+                                <NavLink
+                                    to="/entertainment"
+                                    className="nav-link"
+                                >
+                                    Entertainment
                                 </NavLink>
 
                                 <NavLink to="/science" className="nav-link">
-                                Science
+                                    Science
                                 </NavLink>
                                 <NavLink
                                     to="/notfound"
-                                    className="nav-link d-none d-lg-block"
-                                    disabled
+                                    className="nav-link d-none d-lg-block disabled" 
+                                    disabled 
                                 >
                                     <img src={Vector} alt="" />
                                 </NavLink>
@@ -66,7 +68,10 @@ export default function NavbarMain() {
                                 <NavLink to="/" className="nav-link">
                                     <img src={search} alt="" />
                                 </NavLink>
-                                <NavLink to="/" className="nav-link d-none d-lg-block">
+                                <NavLink
+                                    to="/"
+                                    className="nav-link d-none d-lg-block"
+                                >
                                     <img src={bar} alt="" />
                                 </NavLink>
                             </div>

@@ -1289,4 +1289,12 @@ body {
     .slider-arctical .main-slider .slide-item .row .wrapper-text .trending  {
         margin-top: 15px;
     }
+    .editor-picks .main-editor .slider-editor .slider-editor-main .card-slider {
+        flex-direction: column;
+        width: 100%;
+    }
+    .editor-picks .main-editor .slider-editor .slider-editor-main .card-slider .img-slide img {
+        width: 100%;
+
+    }
 }
